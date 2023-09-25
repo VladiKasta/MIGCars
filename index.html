@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./Lib/swiper8/swiper-bundle.min.css" />
+    <script defer src="./main.js"></script>
+    <title>Главная</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="burger">
+        <div class="header_container">
+          <div class="nav">
+            <ul class="info">
+              <li class="info_1">Каталог</li>
+              <li class="info_2">Покупателям</li>
+              <li class="info_3">О компании</li>
+              <li class="info_4">Поставщикам</li>
+              <li>Контакты</li>
+              <button class="download_btn">
+                <a href="#">Скачать прайс</a>
+              </button>
+            </ul>
+            <ul class="contacts">
+              <li>8 800 700-80-89</li>
+              <li class="contacts_2">8 8552 39-35-06</li>
+              <li class="contacts_3">info@mig-auto.ru</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="header_container">
+          <button class="download_btn"><a href="#">Скачать прайс</a></button>
+
+          <div class="nav">
+            <ul class="info">
+              <li class="info_1">Каталог</li>
+              <li class="info_2">Покупателям</li>
+              <li class="info_3">О компании</li>
+              <li class="info_4">Поставщикам</li>
+              <li>Контакты</li>
+            </ul>
+            <ul class="contacts">
+              <li>8 800 700-80-89</li>
+              <li class="contacts_2">8 8552 39-35-06</li>
+              <li class="contacts_3">info@mig-auto.ru</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header_search">
+        <div class="header_search_container">
+          <img src="./assets/Mask group.svg" alt="" />
+          <button class="catalog_btn butn">
+            <img src="./assets/list-dot.svg" alt="" /><a class="link"
+              >Каталог</a
+            >
+          </button>
+          <input
+            class="search_input"
+            placeholder="Поиск по сайту"
+            type="text"
+          />
+
+          <img
+            class="input_icon_mobile"
+            src="./assets/charm_search-black.svg"
+            alt=""
+          />
+          <img
+            class="catalog_dropdown-btn"
+            src="./assets/list-dot-black.svg"
+            alt=""
+            id="burgerOpenBtn"
+          />
+          <div class="nav_icons">
+            <div class="icon_container">
+              <img
+                class="star_img"
+                src="./assets/solar_star-line-duotone.svg"
+                alt=""
+              />
+              <div>
+                <p>Избранное</p>
+              </div>
+            </div>
+
+            <div class="icon_container_middle">
+              <img class="cart_img" src="./assets/cart-02.svg" alt="" />
+              <div>
+                <p>Корзина</p>
+              </div>
+            </div>
+
+            <div class="icon_container">
+              <img
+                class="profile_img"
+                src="./assets/line-md_account.svg"
+                alt=""
+              />
+              <div>
+                <p>Аккаунт</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Контент главная -->
+      <div class="content">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider_background">
+                <div class="slider_title">
+                  <h1 class="title">
+                    Ваш путь <br />К авто-<span>совершенству</span>
+                  </h1>
+                  <p>
+                    Добро пожаловать в мир качественных авто-деталей! Мы
+                    предлагаем широкий ассортимент запчастей, которые сделают
+                    ваше авто непревзойденным.
+                  </p>
+                </div>
+                <img
+                  class="slider_img1"
+                  src="./assets/img/SliderBack.png"
+                  alt=""
+                />
+                <img
+                  class="slider_img2"
+                  src="./assets/img/SliderPic.png"
+                  alt=""
+                />
+                <img
+                  class="slider_img3"
+                  src="./assets/img/SliderCar.png"
+                  alt=""
+                />
+                <button class="slider_btn butn">Читать</button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_background">
+                <img class="slide" src="./assets/img/download.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_background">
+                <img
+                  class="slide"
+                  src="./assets/img/wallpaperflare.com_wallpaper (14).jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider_background">
+                <img
+                  class="slide"
+                  src="./assets/img/wallpaperflare.com_wallpaper (15).jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Товары и Категории -->
+        <div class="products_wrapper">
+          <div class="title_wrapper">
+            <h2>Категории товаров</h2>
+            <a class="link" href="#"
+              >Смотреть все<img src="./assets/img/arrow.svg" alt=""
+            /></a>
+          </div>
+
+          <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+
+          <div class="swiper_category">
+            <div class="swiper-wrapper">
+              <!-- <div class="category_cards"> -->
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img
+                    src="./assets/img/wallpaperflare.com_wallpaper (14).jpg"
+                    alt=""
+                  />
+                </div>
+
+                <h6>CUMMINS</h6>
+              </div>
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img src="./assets/img/products/categories/cars.png" alt="" />
+                </div>
+
+                <h6>Для легковых авто</h6>
+              </div>
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img src="./assets/img/products/categories/zil.png" alt="" />
+                </div>
+
+                <h6>ЗИЛ</h6>
+              </div>
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img
+                    src="./assets/img/products/categories/kamaz.png"
+                    alt=""
+                  />
+                </div>
+
+                <h6>КАМАЗ</h6>
+              </div>
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img src="./assets/img/products/categories/maz.png" alt="" />
+                </div>
+
+                <h6>МАЗ, КРАЗ</h6>
+              </div>
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img src="./assets/img/products/categories/liaz.png" alt="" />
+                </div>
+
+                <h6>НЕФАЗ, ЛИАЗ</h6>
+              </div>
+
+              <div class="category_card swiper-slide">
+                <div class="img_category_container">
+                  <img src="./assets/img/products/categories/liaz.png" alt="" />
+                </div>
+
+                <h6>НЕФАЗ, ЛИАЗ</h6>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+
+          <a class="look_all_mobile link btn" href="#">Смотреть все</a>
+        </div>
+        <!-- Товары и Категории -->
+        <hr class="line" />
+
+        <!-- Акции и новое -->
+        <div class="new">
+          <div class="switcher" id="switcher">
+            <div class="new_products active" id="switcher_op1">
+              <span>Новые поступления</span>
+            </div>
+            <div class="sales" id="switcher_op2"><span>Акции</span></div>
+          </div>
+          <div class="sales_cards">
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/download.jpeg" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/2.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/3.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/4.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/5.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/6.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+          </div>
+          <div class="sales_cards">
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/download.jpeg" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/2.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/3.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/4.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/5.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+            <div class="sales_card">
+              <img
+                class="star"
+                src="./assets/img/products/new/star.svg"
+                alt=""
+              />
+              <div class="img_sales_container">
+                <img src="./assets/img/products/new/6.png" alt="" />
+              </div>
+              <p>Запчасти и ремонт Deutz 1015 серия</p>
+              <h6 class="price title">400 000 ₽</h6>
+              <p class="old_price">700 000 ₽</p>
+              <button class="cart-btn">В корзину</button>
+            </div>
+          </div>
+        </div>
+        <!-- Акции и новое -->
+
+        <!-- преимущества -->
+        <h1 class="advantage_title title">Наши преимущества</h1>
+        <div class="advantages">
+          <div class="tiles">
+            <div class="tiles_row_1">
+              <div class="tile_1 tile">
+                <div>
+                  <h1>C 1998 года</h1>
+                  <p>Поставляем запчасти для грузовых авто</p>
+                </div>
+              </div>
+
+              <div class="tile_2 tile">
+                <div>
+                  <h1>Быстрая доставка</h1>
+                  <p>за счет больших объемов складских запасов</p>
+                </div>
+              </div>
+            </div>
+            <div class="tiles_row_2">
+              <div class="tile_3 tile">
+                <div>
+                  <h1>Оригинальные запчасти</h1>
+                </div>
+              </div>
+
+              <div class="tile_4 tile">
+                <div>
+                  <h1>Стабильно <span>низкие</span> цены</h1>
+                  <p>при высоком качестве</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- преимущества -->
+
+        <!-- О компании -->
+        <div class="about">
+          <img src="./assets/img/AboutCompany/company.png" alt="" />
+          <div class="about_title">
+            <h1 class="title">О компании</h1>
+            <p>
+              Благодаря более, чем 16-летнему опыту работы, схема сотрудничества
+              выверена до мелочей, а процесс работ разбит на этапы, за каждый из
+              которых отвечают специалисты, обладающие огромным опытом работы по
+              данному профилю.
+            </p>
+            <a class="about-btn butn" href="">Читать</a>
+          </div>
+        </div>
+        <!-- О компании -->
+
+        <!-- Отзывы -->
+        <div class="reviews">
+          <div class="title_wrapper">
+            <h2>Отзывы</h2>
+            <a class="link" href="#"
+              >Смотреть все<img src="./assets/img/arrow.svg" alt=""
+            /></a>
+          </div>
+
+          <div class="reviews_wrapper">
+            <div class="review_item">
+              <div class="rev_ava">
+                <img src="./assets/img/rews/Group 1.svg" alt="" />
+              </div>
+              <div class="review_text">
+                <h1 class="review_autor title">
+                  Влад
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                </h1>
+
+                <p>
+                  Этот магазин автозапчастей действительно впечатляет. Здесь я
+                  нашел все необходимые запчасти для своего автомобиля без
+                  проблем. Качество продукции всегда безупречное, а персонал
+                  высокопрофессионален и дружелюбен. Рекомендую всем владельцам
+                  автомобилей обратиться сюда.
+                </p>
+                <a class="link" href="#"
+                  >Смотреть отзыв<img src="./assets/img/arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="review_item">
+              <div class="rev_ava">
+                <img src="./assets/img/rews/Group 1.svg" alt="" />
+              </div>
+              <div class="review_text">
+                <h1 class="review_autor title">
+                  Влад
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                </h1>
+
+                <p>
+                  Этот магазин автозапчастей действительно впечатляет. Здесь я
+                  нашел все необходимые запчасти для своего автомобиля без
+                  проблем. Качество продукции всегда безупречное, а персонал
+                  высокопрофессионален и дружелюбен. Рекомендую всем владельцам
+                  автомобилей обратиться сюда.
+                </p>
+                <a class="link" href="#"
+                  >Смотреть отзыв<img src="./assets/img/arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+
+            <div class="review_item">
+              <div class="rev_ava">
+                <img src="./assets/img/rews/Group 1.svg" alt="" />
+              </div>
+
+              <div class="review_text">
+                <h1 class="review_autor title">
+                  Влад
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star-filled.svg" alt="" />
+                  <img src="./assets/img/rews/solar_star_empty.svg" alt="" />
+                </h1>
+                <p>
+                  Этот магазин автозапчастей действительно впечатляет. Здесь я
+                  нашел все необходимые запчасти для своего автомобиля без
+                  проблем. Качество продукции всегда безупречное, а персонал
+                  высокопрофессионален и дружелюбен. Рекомендую всем владельцам
+                  автомобилей обратиться сюда.
+                </p>
+                <a class="link" href="#"
+                  >Смотреть отзыв<img src="./assets/img/arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <button class="expand_button butn">
+            Развернуть <img src="./assets/img/rews/arrow_down.svg" alt="" />
+          </button>
+        </div>
+        <!-- Отзывы -->
+
+        <!-- Актуальное -->
+        <div class="actual">
+          <div class="title_wrapper actual_title">
+            <h2>Актуальное в <span>миг авто</span></h2>
+            <a class="link" href="#"
+              >Смотреть все<img src="./assets/img/arrow.svg" alt=""
+            /></a>
+          </div>
+
+          <div class="actual_items">
+            <div class="announce">
+              <div class="announce_text">
+                <p><img src="./assets/announce_green.svg" alt="" /> Анонс</p>
+                <h2 class="announce_title title">
+                  Новое поступление запчастей планируется на 21 июня
+                </h2>
+                <a class="announce_link link" href="#"
+                  >Читать статью<img src="./assets/arrow-white.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="actual_item">
+              <img src="./assets/img/actual_img.png" alt="" />
+              <div>
+                <h2 class="actual_item_title title">
+                  Камаз обновили модельный ряд, включая всеми известную...
+                </h2>
+                <h6 class="actual_item_date title">13 июня 2023</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Актуальное -->
+
+        <!-- Подписаться Форма -->
+        <div class="subscribe">
+          <img src="./assets/img/starSub.png" alt="" />
+          <div class="subscribe_title">
+            <h1 class="title">
+              Будьте в курсе <span>всех</span> новинок и акций!
+            </h1>
+          </div>
+          <div class="subscribe_form">
+            <input placeholder="Как к вам обращаться?" type="text" />
+            <input placeholder="Электронная почта" type="email" />
+            <button>Подписаться</button>
+          </div>
+        </div>
+        <!-- Подписаться Форма -->
+      </div>
+      <!-- Контент главная -->
+
+      <div class="footer">
+        <div class="footer_wrapper">
+          <div class="section">
+            <ul>
+              <li>О компании</li>
+              <li>Гарантии и доставка</li>
+              <li>Оплата</li>
+              <li>Поставщикам</li>
+              <li>Вакансии</li>
+              <li>Контакты</li>
+            </ul>
+            <ul class="details">
+              <li>Запчасти МАЗ, КРАЗ</li>
+              <li>Запчасти НЕФАЗ, ЛИАЗ</li>
+              <li>Запчасти MADARA</li>
+              <li>Запчасти для легковых автомобилей</li>
+              <li>Запчасти ЗИЛ</li>
+              <li>Запчасти Трактор</li>
+              <li>Запчасти УРАЛ</li>
+              <li>Ремни</li>
+              <li>Запчасти CUMMINS</li>
+              <li>Запчасти MADARA</li>
+              <li>Запчасти для легковых автомобилей</li>
+              <li>Запчасти ЗИЛ</li>
+              <li>Запчасти КамАЗ</li>
+            </ul>
+            <ul>
+              <li>Наши партнеры</li>
+              <li>Дистрибьюция</li>
+              <li>Каталог</li>
+              <li>Акции</li>
+              <li>Полезные статьи</li>
+            </ul>
+          </div>
+
+          <div class="section_last">
+            <div class="section_social">
+              <ul class="social_items">
+                <li>
+                  <img
+                    src="./assets/mdi_odnoklassniki.svg"
+                    alt=""
+                  />Одноклассники
+                </li>
+                <li><img src="./assets/mdi_youtube.svg" alt="" />Канал</li>
+                <li><img src="./assets/ic_round-mail.svg" alt="" />Почта</li>
+                <li>
+                  <img src="./assets/akar-icons_vk-fill.svg" alt="" />ВКонтакте
+                </li>
+              </ul>
+            </div>
+
+            <div class="social_items_mobile">
+              <img src="./assets/mdi_odnoklassniki.svg" alt="" />
+              <img src="./assets/mdi_youtube.svg" alt="" />
+              <img src="./assets/ic_round-mail.svg" alt="" />
+              <img src="./assets/akar-icons_vk-fill.svg" alt="" />
+            </div>
+            <div class="footer_contacts">
+              <div class="footer_phone">
+                <h5>Телефон</h5>
+                <ul>
+                  <li>800 700-80-89</li>
+                  <li>8 8552 39-35-068</li>
+                </ul>
+              </div>
+              <div class="footer_email">
+                <h5>Электронная Почта</h5>
+                <ul>
+                  <li>info@mig-auto.ru</li>
+                </ul>
+              </div>
+              <div class="footer_pay">
+                <h5>Принимаем к оплате</h5>
+                <ul>
+                  <li><img src="./assets/mir.svg" alt="" /></li>
+                  <li><img src="./assets/master.svg" alt="" /></li>
+                  <li><img src="./assets/visa.svg" alt="" /></li>
+                </ul>
+              </div>
+              <div class="footer_adres">
+                <h5>Адрес</h5>
+                <ul>
+                  <li>
+                    423800, РФ, Татарстан г. Набережные Челны, Индустриальный
+                    проезд, д.6
+                  </li>
+                </ul>
+                <a class="link" href="#">Карта проезда</a>
+              </div>
+            </div>
+            <!-- <div class="section_last">
+            <ul>
+              <li>Запчасти CUMMINS</li>
+              <li>Запчасти MADARA</li>
+              <li>Запчасти для легковых автомобилей</li>
+              <li>Запчасти ЗИЛ</li>
+              <li>Запчасти КамАЗ</li>
+            </ul>
+          </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar_mobile">
+        <div class="nav_icons_mobile">
+          <div class="icon_container">
+            <img
+              class="star_img"
+              src="./assets/solar_star-line-duotone.svg"
+              alt=""
+            />
+            <div>
+              <p>Избранное</p>
+            </div>
+          </div>
+
+          <div class="icon_container_middle">
+            <img class="cart_img" src="./assets/cart-02.svg" alt="" />
+            <div>
+              <p>Корзина</p>
+            </div>
+          </div>
+
+          <div class="icon_container">
+            <img
+              class="profile_img"
+              src="./assets/line-md_account.svg"
+              alt=""
+            />
+            <div>
+              <p>Аккаунт</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./Lib/swiper8/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+  </body>
+</html>
