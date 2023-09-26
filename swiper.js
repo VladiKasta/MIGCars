@@ -73,3 +73,32 @@ const swiperCategory = new Swiper(".swiper_category", {
 
   // And if we need scrollbar
 });
+
+const swiperBrands = new Swiper(".about_us_swiper", {
+  // Optional parameters
+  /* autoHeight: true, */
+  slidesPerView: 5.5,
+  spaceBetween: 10,
+
+  loop: true,
+
+  loop: true,
+  autoplay: {
+    delay: 3000, // задержка между переключениями в миллисекундах
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+});

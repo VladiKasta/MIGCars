@@ -2277,7 +2277,7 @@ body {
 
 .certs_cards {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
+  margin-bottom: 56px;
   .cert_card {
     img {
       transform: scale(120%);
@@ -2302,6 +2302,67 @@ body {
     overflow: hidden;
   }
 }
+
+.cert_card_item {
+  a {
+    font-family: "sf-pro-display_medium";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #69696d;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 12px;
+  }
+}
+
 // ================== Сертификаты Секция ===============
+
+.ZTD_wrapper {
+  margin-top: 80px;
+  background-image: url(/assets/img/AboutUs/ZTKBackgrond.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 531px;
+  position: relative;
+  border-radius: 40px;
+}
+
+.ZTD_content {
+  position: absolute;
+  max-width: 953px;
+
+  overflow: hidden;
+  top: 10%;
+  left: 5%;
+  bottom: 10%;
+  img {
+    margin-bottom: 24px;
+  }
+  h6 {
+    margin-top: 24px;
+    font-family: "sf-pro-display_title";
+    color: #2c2d2e;
+  }
+  p {
+    margin-top: 40px;
+    color: #69696d;
+    font-family: "sf-pro-display_medium";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+
+.about_us_swiper {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
 
 // =============================== О нас ==============================
