@@ -2694,7 +2694,7 @@ body {
 
 .subscribe_form.call_us {
   padding: 0;
-  max-width: 444px;
+  width: 444px;
   font-family: "sf-pro-display_medium";
   margin-top: 0;
   input {
@@ -2741,7 +2741,7 @@ body {
   }
 
   .subscribe_form.call_us {
-    max-width: none;
+    width: auto;
   }
   .call_us h1 {
     font-size: 24px;
