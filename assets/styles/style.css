@@ -2394,4 +2394,109 @@ body {
   .partners_title {
     padding-left: 53px;
   }
+}
+.suppliers_text {
+  border-radius: 32px;
+  background-color: #fff;
+  padding: 32px 48px 52px 48px;
+}
+.suppliers_text h1 {
+  margin-bottom: 41px;
+}
+
+.supp_description {
+  padding-left: 24px;
+}
+.supp_description h6 {
+  position: relative;
+  font-family: "sf-pro-display_title";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #2c2d2e;
+}
+.supp_description h6 img {
+  position: absolute;
+  right: 0;
+}
+.supp_description p {
+  max-width: 881px;
+  color: #69696d;
+  font-family: "sf-pro-display_medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.call_us {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 32px;
+  background-color: #fff;
+  padding: 41px 53px 42px 103px;
+}
+.call_us .call_us_description {
+  max-width: 630px;
+}
+.call_us h1 {
+  margin-bottom: 32px;
+}
+.call_us p {
+  max-width: 630px;
+  color: #69696d;
+  font-family: "sf-pro-display_medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subscribe_form.call_us {
+  padding: 0;
+  max-width: 444px;
+  font-family: "sf-pro-display_medium";
+  margin-top: 0;
+}
+.subscribe_form.call_us input {
+  background-color: #f6f6f6;
+  height: 48px;
+  width: 100%;
+}
+.subscribe_form.call_us textarea {
+  border: none;
+  border-radius: 16px;
+  background-color: #f6f6f6;
+  height: 141px;
+  margin-bottom: 24px;
+  padding-left: 32px;
+}
+.subscribe_form.call_us input:focus {
+  border: none;
+}
+.subscribe_form.call_us .last-input {
+  height: 141px;
+}
+.subscribe_form.call_us button {
+  font-family: "sf-pro-display_medium";
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .call_us {
+    flex-direction: column;
+    padding: 16px 24px 40px 24px;
+  }
+  .subscribe_form.call_us {
+    max-width: none;
+  }
+  .call_us h1 {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
