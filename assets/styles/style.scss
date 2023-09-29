@@ -114,6 +114,15 @@ body {
   border-radius: 32px;
 }
 
+.arrow {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.arrow.pressed {
+  transform: rotate(-180deg);
+}
+
 .grid_tiles {
   justify-content: center;
   justify-items: center;
@@ -2308,6 +2317,7 @@ body {
 }
 
 .cert_card_item {
+  margin-bottom: 30px;
   a {
     font-family: "sf-pro-display_medium";
     font-size: 14px;
@@ -2322,8 +2332,15 @@ body {
   }
 }
 
-// ================== Сертификаты Секция ===============
+.cert_card_item:nth-child(n + 7) {
+  display: none;
+}
 
+.cert_card_item.visible {
+  display: block;
+}
+
+// ================== Сертификаты Секция ===============
 .ZTD_wrapper {
   margin-top: 80px;
   background-image: url(/assets/img/AboutUs/Frame\ 4979.png);
@@ -2372,6 +2389,10 @@ body {
 
 .about_us_wrapper {
   overflow: hidden;
+}
+
+.partners_title {
+  padding-left: 200px;
 }
 
 @media screen and (max-width: 1520px) {
@@ -2490,6 +2511,17 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .certs {
+    padding-left: 23px;
+    padding-right: 23px;
+    h1 {
+    }
+  }
+
+  .cert_card_item {
+    margin-bottom: 20px;
+  }
+
   .about-us-video-container {
     iframe {
       height: 341px;
@@ -2650,6 +2682,9 @@ body {
     img {
       position: absolute;
       right: 0;
+      top: 0;
+      width: 30px;
+      transform: rotate(180deg);
     }
   }
   p {
@@ -2661,9 +2696,19 @@ body {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    display: none;
+    transition: all 0.5s;
   }
 }
 
+.supple-or-creator-text.isShownText {
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.how-to-become-supplier-text.isShownText {
+  display: inline-block;
+}
 .call_us {
   display: flex;
   justify-content: space-between;
