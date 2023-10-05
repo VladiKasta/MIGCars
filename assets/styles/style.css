@@ -942,7 +942,7 @@ body {
 }
 
 .actual_item_date {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1033,7 +1033,7 @@ body {
 }
 
 .section_last ul li {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1044,7 +1044,7 @@ body {
 }
 
 .section ul li {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -1063,7 +1063,7 @@ body {
   list-style-type: none;
   margin-right: 32px;
   margin-bottom: 16px;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -1102,7 +1102,7 @@ body {
 
 .footer_phone ul li,
 .footer_email ul li {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1187,8 +1187,7 @@ body {
 .footer_mobile .footer_pay ul li,
 .footer_mobile .footer_adres ul li {
   list-style-type: none;
-  list-style-type: none;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 10px;
   font-weight: 400;
   line-height: 15px;
@@ -1214,7 +1213,7 @@ body {
 }
 .footer_m_wrapper .section_nav_mobile ul li {
   list-style-type: none;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 10px;
   font-weight: 400;
   line-height: 15px;
@@ -1228,7 +1227,7 @@ body {
 }
 .footer_m_wrapper .section_products_mobile ul li {
   list-style-type: none;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 10px;
   font-weight: 400;
   line-height: 15px;
@@ -1254,7 +1253,7 @@ body {
 }
 .footer-m-email-phone .footer_email ul li,
 .footer-m-email-phone .footer_phone ul li {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 10px;
   font-weight: 400;
   line-height: 15px;
@@ -1300,7 +1299,7 @@ body {
     padding-right: 25px;
   }
   .nav-item a {
-    font-family: "SF Pro Display", sans-serif;
+    font-family: "sf-pro-display_medium";
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -2699,7 +2698,7 @@ body {
   border-radius: 12px;
   gap: 10px;
   background-color: #4865d9;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -2721,7 +2720,7 @@ body {
 }
 
 .contacts_title {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_title";
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
@@ -2755,7 +2754,7 @@ body {
 .item1_text h5,
 .item2_text h5 {
   margin-bottom: 16px;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_title";
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
@@ -2765,7 +2764,7 @@ body {
 
 .item1_text p,
 .item2_text p {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -2780,23 +2779,29 @@ body {
 .phone {
   margin-right: 32px;
 }
+.phone ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 .phone li {
   margin-bottom: 12px;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  color: #4865d9;
 }
 
 .email p {
   margin-bottom: 12px;
+  color: #4865d9;
 }
 
 .bills {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -2807,6 +2812,16 @@ body {
   margin-bottom: 62px;
 }
 
+.map_section {
+  margin: 0 auto;
+  border-radius: 32px;
+  /* height: 600px; */
+  /* background-image: url(/assets/map.png); */
+}
+.map_section img {
+  width: 430px;
+}
+
 .people {
   margin: auto;
   max-width: 1520px;
@@ -2814,7 +2829,7 @@ body {
 }
 
 .people h3 {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_title";
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
@@ -2825,6 +2840,7 @@ body {
 }
 
 .people_cards {
+  gap: 32px;
   display: grid;
   grid-template-columns: 356px 356px 356px 356px;
   grid-template-rows: auto;
@@ -2832,7 +2848,7 @@ body {
 }
 
 .people_card h5 {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "sf-pro-display_title";
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -2842,7 +2858,8 @@ body {
 }
 
 .people_card ul li {
-  font-family: "SF Pro Display", sans-serif;
+  list-style-type: none;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -2866,13 +2883,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 56px;
-  background-color: #aeaeae;
-  font-family: "SF Pro Display", sans-serif;
+  background-color: #ecedf0;
+  font-family: "sf-pro-display_medium";
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
+  border: none;
 }
 
 @media screen and (max-width: 1210px) {
@@ -2934,7 +2952,7 @@ body {
     right: 0;
   }
   .nav-item a {
-    font-family: "SF Pro Display", sans-serif;
+    font-family: "sf-pro-display_medium";
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
@@ -3003,18 +3021,14 @@ body {
   .contacts_section {
     margin: 15px 15px 15px 15px;
   }
-  .map_section {
-    margin: 0 auto;
-    width: 80%;
-  }
   .people h3 {
     text-align: center;
   }
-  .people_cards {
+  /* .people_cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .people_card {
     margin-bottom: 15px;
   }
@@ -3032,5 +3046,19 @@ body {
   }
   .footer_m_wrapper {
     max-width: none;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .people_cards {
+    grid-template-columns: 356px 356px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .people_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .people_card {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */
