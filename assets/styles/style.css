@@ -2944,9 +2944,9 @@ body {
   .contacts {
     display: none;
   }
-  .info {
+  /* .info {
     display: none;
-  }
+  } */
   .contacts_section {
     flex-direction: column;
   }
@@ -2956,9 +2956,6 @@ body {
   }
 }
 @media screen and (max-width: 1490px) {
-  .header_search_container img {
-    display: none;
-  }
   .search_input {
     width: 400px;
     margin-right: 0px;
