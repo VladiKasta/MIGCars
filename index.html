@@ -17,10 +17,11 @@
           <div class="nav">
             <ul class="info">
               <li class="info_1">Каталог</li>
-              <li class="info_2">Покупателям</li>
-              <li class="info_3">О компании</li>
+              <li class="info_2">О компании</li>
+              <li class="info_3">Покупателям</li>
               <li class="info_4">Поставщикам</li>
               <li>Контакты</li>
+
               <button class="download_btn">
                 <a href="#">Скачать прайс</a>
               </button>
@@ -44,6 +45,10 @@
               <li class="info_3">О компании</li>
               <li class="info_4">Поставщикам</li>
               <li>Контакты</li>
+              <a href="#"><img src="/assets/ri_whatsapp-fill.svg" alt="" /></a>
+              <a href="#"
+                ><img src="/assets/tabler_mail-filled.svg" alt=""
+              /></a>
             </ul>
             <ul class="contacts">
               <li>8 800 700-80-89</li>
@@ -80,6 +85,13 @@
           />
           <div class="nav_icons">
             <div class="icon_container">
+              <img class="cart_img" src="./assets/cart-02.svg" alt="" />
+              <div>
+                <p>Корзина</p>
+              </div>
+            </div>
+
+            <div class="icon_container_middle">
               <img
                 class="star_img"
                 src="./assets/solar_star-line-duotone.svg"
@@ -87,13 +99,6 @@
               />
               <div>
                 <p>Избранное</p>
-              </div>
-            </div>
-
-            <div class="icon_container_middle">
-              <img class="cart_img" src="./assets/cart-02.svg" alt="" />
-              <div>
-                <p>Корзина</p>
               </div>
             </div>
 
@@ -175,7 +180,7 @@
         <!-- Товары и Категории -->
         <div class="products_wrapper">
           <div class="title_wrapper">
-            <h2>Категории товаров</h2>
+            <h2>Категории товаров <span>запчасти</span></h2>
             <a class="link" href="#"
               >Смотреть все<img src="./assets/img/arrow.svg" alt=""
             /></a>
@@ -266,6 +271,9 @@
 
         <!-- Акции и новое -->
         <div class="new">
+          <a class="link" href="#"
+            >Смотреть все<img src="./assets/img/arrow.svg" alt=""
+          /></a>
           <div class="switcher" id="switcher">
             <div class="new_products active" id="switcher_op1">
               <span>Новые поступления</span>
@@ -503,7 +511,7 @@
         <!-- О компании -->
 
         <!-- Отзывы -->
-        <div class="reviews">
+        <!-- <div class="reviews">
           <div class="title_wrapper">
             <h2>Отзывы</h2>
             <a class="link" href="#"
@@ -596,13 +604,13 @@
           <button class="expand_button butn">
             Развернуть <img src="./assets/img/rews/arrow_down.svg" alt="" />
           </button>
-        </div>
+        </div> -->
         <!-- Отзывы -->
 
         <!-- Актуальное -->
         <div class="actual">
           <div class="title_wrapper actual_title">
-            <h2>Актуальное в <span>миг авто</span></h2>
+            <h2>Актуальное в <span>миг-авто</span></h2>
             <a class="link" href="#"
               >Смотреть все<img src="./assets/img/arrow.svg" alt=""
             /></a>
@@ -662,6 +670,13 @@
               <li>Вакансии</li>
               <li>Контакты</li>
             </ul>
+            <ul>
+              <li>Наши партнеры</li>
+              <li>Дистрибьюция</li>
+              <li>Каталог</li>
+              <li>Акции</li>
+              <li>Полезные статьи</li>
+            </ul>
             <ul class="details">
               <li>Запчасти МАЗ, КРАЗ</li>
               <li>Запчасти НЕФАЗ, ЛИАЗ</li>
@@ -677,71 +692,70 @@
               <li>Запчасти ЗИЛ</li>
               <li>Запчасти КамАЗ</li>
             </ul>
-            <ul>
-              <li>Наши партнеры</li>
-              <li>Дистрибьюция</li>
-              <li>Каталог</li>
-              <li>Акции</li>
-              <li>Полезные статьи</li>
-            </ul>
           </div>
 
           <div class="section_last">
-            <div class="section_social">
-              <ul class="social_items">
-                <li>
-                  <img
-                    src="./assets/mdi_odnoklassniki.svg"
-                    alt=""
-                  />Одноклассники
-                </li>
-                <li><img src="./assets/mdi_youtube.svg" alt="" />Канал</li>
-                <li><img src="./assets/ic_round-mail.svg" alt="" />Почта</li>
-                <li>
-                  <img src="./assets/akar-icons_vk-fill.svg" alt="" />ВКонтакте
-                </li>
-              </ul>
-            </div>
-
             <div class="social_items_mobile">
               <img src="./assets/mdi_odnoklassniki.svg" alt="" />
               <img src="./assets/mdi_youtube.svg" alt="" />
               <img src="./assets/ic_round-mail.svg" alt="" />
               <img src="./assets/akar-icons_vk-fill.svg" alt="" />
             </div>
-            <div class="footer_contacts">
-              <div class="footer_phone">
-                <h5>Телефон</h5>
-                <ul>
-                  <li>800 700-80-89</li>
-                  <li>8 8552 39-35-068</li>
-                </ul>
+            <div class="contacts_wrapper">
+              <div class="footer_contacts">
+                <div class="footer_phone">
+                  <h5>Телефон</h5>
+                  <ul>
+                    <li>800 700-80-89</li>
+                    <li>8 8552 39-35-068</li>
+                  </ul>
+                </div>
+                <div class="footer_email">
+                  <h5>Электронная Почта</h5>
+                  <ul>
+                    <li>info@mig-auto.ru</li>
+                  </ul>
+                </div>
+                <div class="footer_pay">
+                  <h5>Принимаем к оплате</h5>
+                  <ul>
+                    <li><img src="./assets/mir.svg" alt="" /></li>
+                    <li><img src="./assets/master.svg" alt="" /></li>
+                    <li><img src="./assets/visa.svg" alt="" /></li>
+                  </ul>
+                </div>
+                <div class="footer_adres">
+                  <h5>Адрес</h5>
+                  <ul>
+                    <li>
+                      423800, РФ, Татарстан г. Набережные Челны, Индустриальный
+                      проезд, д.6
+                    </li>
+                  </ul>
+                  <a class="link" href="#">Карта проезда</a>
+                </div>
               </div>
-              <div class="footer_email">
-                <h5>Электронная Почта</h5>
-                <ul>
-                  <li>info@mig-auto.ru</li>
-                </ul>
-              </div>
-              <div class="footer_pay">
-                <h5>Принимаем к оплате</h5>
-                <ul>
-                  <li><img src="./assets/mir.svg" alt="" /></li>
-                  <li><img src="./assets/master.svg" alt="" /></li>
-                  <li><img src="./assets/visa.svg" alt="" /></li>
-                </ul>
-              </div>
-              <div class="footer_adres">
-                <h5>Адрес</h5>
-                <ul>
+
+              <div class="section_social">
+                <ul class="social_items">
                   <li>
-                    423800, РФ, Татарстан г. Набережные Челны, Индустриальный
-                    проезд, д.6
+                    <img
+                      src="./assets/mdi_odnoklassniki.svg"
+                      alt=""
+                    />Одноклассники
+                  </li>
+                  <li><img src="./assets/mdi_youtube.svg" alt="" />Канал</li>
+                  <li><img src="./assets/ic_round-mail.svg" alt="" />Почта</li>
+                  <li>
+                    <img
+                      src="./assets/akar-icons_vk-fill.svg"
+                      alt=""
+                    />ВКонтакте
                   </li>
                 </ul>
-                <a class="link" href="#">Карта проезда</a>
               </div>
             </div>
+
             <!-- <div class="section_last">
             <ul>
               <li>Запчасти CUMMINS</li>
@@ -785,6 +799,85 @@
               <p>Аккаунт</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="footer_mobile">
+        <div class="footer_m_wrapper">
+          <div class="section_nav_mobile">
+            <ul>
+              <li>О компании</li>
+              <li>Гарантии и доставка</li>
+              <li>Оплата</li>
+              <li>Поставщикам</li>
+              <li>Вакансии</li>
+              <li>Контакты</li>
+            </ul>
+            <ul>
+              <li>Наши партнеры</li>
+              <li>Дистрибьюция</li>
+              <li>Каталог</li>
+              <li>Акции</li>
+              <li>Полезные статьи</li>
+            </ul>
+          </div>
+          <div class="section_products_mobile">
+            <ul>
+              <li>Запчасти МАЗ, КРАЗ</li>
+              <li>Запчасти НЕФАЗ, ЛИАЗ</li>
+              <li>Запчасти MADARA</li>
+              <li>Запчасти для легковых автомобилей</li>
+              <li>Запчасти ЗИЛ</li>
+              <li>Запчасти Трактор</li>
+              <li>Запчасти УРАЛ</li>
+              <li>Ремни</li>
+              <li>Запчасти CUMMINS</li>
+              <li>Запчасти MADARA</li>
+              <li>Запчасти для легковых автомобилей</li>
+              <li>Запчасти ЗИЛ</li>
+              <li>Запчасти КамАЗ</li>
+            </ul>
+          </div>
+        </div>
+        <div class="social_items_mobile">
+          <img src="./assets/mdi_odnoklassniki.svg" alt="" />
+          <img src="./assets/mdi_youtube.svg" alt="" />
+          <img src="./assets/ic_round-mail.svg" alt="" />
+          <img src="./assets/akar-icons_vk-fill.svg" alt="" />
+        </div>
+        <div class="footer-m-email-phone">
+          <div class="footer_phone">
+            <h5>Телефон</h5>
+            <ul>
+              <li>800 700-80-89</li>
+              <li>8 8552 39-35-068</li>
+            </ul>
+          </div>
+          <div class="footer_email">
+            <h5>Электронная Почта</h5>
+            <ul>
+              <li>info@mig-auto.ru</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer_pay">
+          <h5>Принимаем к оплате</h5>
+          <ul>
+            <li><img src="./assets/mir.svg" alt="" /></li>
+            <li><img src="./assets/master.svg" alt="" /></li>
+            <li><img src="./assets/visa.svg" alt="" /></li>
+          </ul>
+        </div>
+        <div class="footer_adres">
+          <h5>Адрес</h5>
+          <ul>
+            <li>
+              423800, РФ, Татарстан г. Набережные Челны, Индустриальный проезд,
+              д.6
+            </li>
+          </ul>
+          <a class="link" href="#">Карта проезда</a>
         </div>
       </div>
     </div>

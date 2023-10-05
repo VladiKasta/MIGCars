@@ -53,13 +53,14 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Показ текста в поставщиках */
 document.addEventListener("DOMContentLoaded", function () {
   let arrows = document.querySelectorAll(".text_show");
-
+  /* первая стрелка */
   arrows[0].addEventListener("click", function () {
     document
       .querySelector(".supple-or-creator-text")
       .classList.toggle("isShownText");
   });
 
+  /* вторая стрелка */
   arrows[1].addEventListener("click", function () {
     document
       .querySelector(".how-to-become-supplier-text")
