@@ -634,6 +634,10 @@ body {
   margin-bottom: 12px;
 }
 
+.old_price.hidden {
+  display: none;
+}
+
 .cart-btn {
   display: inline-block;
   /* max-width: 100%; */
@@ -1125,7 +1129,7 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #2c2d2e;
+  color: #69696d;
 }
 
 .footer_phone h5,
@@ -1174,6 +1178,22 @@ body {
   margin-right: 20px;
 }
 
+.footer_adres {
+  max-width: 286px;
+}
+.footer_adres h5 {
+  font-family: "sf-pro-display_title";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d2e;
+}
+.footer_adres ul li {
+  color: #69696d;
+}
+
 .footer_mobile {
   display: none;
   width: 100%;
@@ -1211,7 +1231,7 @@ body {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  color: #2c2d2e;
+  color: #69696d;
 }
 .footer_mobile .footer_pay .link,
 .footer_mobile .footer_adres .link {
@@ -1287,7 +1307,7 @@ body {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  color: #2c2d2e;
+  color: #69696d;
 }
 
 @media screen and (max-width: 1210px) {
@@ -1869,7 +1889,7 @@ body {
   }
   .switcher .new_products,
   .switcher .sales {
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 5px;
   }
   .swiper {

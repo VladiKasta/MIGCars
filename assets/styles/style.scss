@@ -639,6 +639,10 @@ body {
   margin-bottom: 12px;
 }
 
+.old_price.hidden {
+  display: none;
+}
+
 .cart-btn {
   display: inline-block;
   /* max-width: 100%; */
@@ -1152,7 +1156,7 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: #2c2d2e;
+  color: #69696d;
 }
 
 .footer_phone h5,
@@ -1204,6 +1208,23 @@ body {
   margin-right: 20px;
 }
 
+.footer_adres {
+  max-width: 286px;
+  h5 {
+    font-family: "sf-pro-display_title";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2c2d2e;
+  }
+  ul {
+    li {
+      color: #69696d;
+    }
+  }
+}
 .footer_mobile {
   display: none;
   width: 100%;
@@ -1242,7 +1263,7 @@ body {
         letter-spacing: 0em;
         text-align: left;
 
-        color: #2c2d2e;
+        color: #69696d;
       }
     }
     .link {
@@ -1325,7 +1346,7 @@ body {
       line-height: 15px;
       letter-spacing: 0em;
       text-align: left;
-      color: #2c2d2e;
+      color: #69696d;
     }
   }
 }
@@ -2025,7 +2046,7 @@ body {
 
     .new_products,
     .sales {
-      font-size: 14px;
+      font-size: 13px;
       padding: 10px 5px;
     }
   }

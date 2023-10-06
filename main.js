@@ -1,8 +1,21 @@
 /* Таб на главной странице */
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("switcher").addEventListener("click", function () {
-    document.getElementById("switcher_op1").classList.toggle("active");
-    document.getElementById("switcher_op2").classList.toggle("active");
+    document.querySelectorAll(".old_price").forEach((el) => {
+      el.classList.remove("hidden");
+    });
+
+    let newProduct = document.getElementById("switcher_op1");
+    newProduct.classList.toggle("active");
+    let saleProducts = document.getElementById("switcher_op2");
+    saleProducts.classList.toggle("active");
+
+    if (newProduct.classList.value.includes("active")) {
+      console.log("акции");
+      document.querySelectorAll(".old_price").forEach((el) => {
+        el.classList.add("hidden");
+      });
+    }
   });
 });
 
