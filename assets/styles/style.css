@@ -1336,6 +1336,9 @@ body {
   .subscribe {
     padding-right: 25px;
   }
+  .subscribe img {
+    display: none;
+  }
   .nav-item a {
     font-family: "sf-pro-display_medium";
     font-size: 16px;
@@ -2688,6 +2691,7 @@ body {
   margin-bottom: 32px;
 }
 .call_us p {
+  padding-right: 55px;
   max-width: 630px;
   color: #69696d;
   font-family: "sf-pro-display_medium";
@@ -2819,10 +2823,14 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  padding-right: 15px;
 }
 
 .phones {
   display: flex;
+}
+.phones .email h5 {
+  padding-right: 25px;
 }
 
 .phone {
@@ -2868,7 +2876,7 @@ body {
   /* background-image: url(/assets/map.png); */
 }
 .map_section img {
-  width: 430px;
+  width: 1520px;
 }
 
 .people {
@@ -3061,17 +3069,14 @@ body {
   /* .footer_contacts {
       flex-direction: column;
     } */
-  .content {
+  /* .content {
     margin-top: 0px;
-  }
+  } */
   .contacts_title {
     margin-left: 15px;
   }
   .contacts_section {
     margin: 15px 15px 15px 15px;
-  }
-  .people h3 {
-    text-align: center;
   }
   /* .people_cards {
     display: flex;
@@ -3098,16 +3103,66 @@ body {
   }
 }
 @media screen and (max-width: 1520px) {
+  .map_section {
+    margin: 0 auto;
+    border-radius: 32px;
+    /* height: 600px; */
+    /* background-image: url(/assets/map.png); */
+  }
+  .map_section img {
+    width: 100%;
+  }
   .people_cards {
     grid-template-columns: 356px 356px;
   }
 }
 @media screen and (max-width: 768px) {
+  .contacts_title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .phones {
+    display: block;
+  }
+  .phones .email h5,
+  .phones .phone h5 {
+    font-size: 14px;
+  }
+  .people h3 {
+    font-size: 20px;
+  }
+  .people {
+    margin-bottom: 24px;
+  }
   .people_cards {
     display: flex;
     flex-direction: column;
   }
   .people_card {
+    padding-right: 15px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .people_card img {
+    width: 128px;
+    height: 128px;
+    border-radius: 32px;
+  }
+  .people_card ul {
+    padding-left: 8px;
+  }
+  .people_card ul h5 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .people_card ul li {
+    text-align: left;
+    font-size: 14px;
+  }
+  .people_card ul li img {
+    width: 24px;
+    height: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
