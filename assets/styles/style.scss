@@ -322,8 +322,9 @@ body {
 /*------------------------------------ Слайдер ---------------------------------*/
 .content {
   max-width: 1520px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
   margin-top: 39px;
 }
 
@@ -2474,7 +2475,7 @@ body {
     color: #2c2d2e;
   }
   iframe {
-    transform: scale(220%);
+    transform: scale(100%);
   }
 }
 
@@ -3146,7 +3147,7 @@ body {
 .item1_text p,
 .item2_text p {
   font-family: "sf-pro-display_medium";
-
+  margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -3534,3 +3535,295 @@ body {
   }
 }
 // =============================== Контакты ==============================
+
+// =============================== Блог ==============================
+
+.blog_title {
+  text-align: left;
+
+  margin-bottom: 48px;
+}
+
+.blog-video-section {
+  display: grid;
+  grid-template-columns: 743px 743px;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.video_blog_item {
+  max-width: 743px;
+  height: 230px;
+  position: relative;
+  border-radius: 32px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.watch_btn {
+  z-index: 2;
+  height: 52px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #e6e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  border-radius: 53px;
+  padding: 14px 32px 14px 27px;
+  text-decoration: none;
+  color: #2c2d2e;
+  font-family: "sf-pro-display_medium";
+
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: left;
+
+  img {
+    position: absolute;
+    right: 13%;
+    bottom: 37%;
+  }
+}
+
+.blog_video_desc {
+  width: 100%;
+  margin-top: 32px;
+  h5 {
+    margin-bottom: 12px;
+  }
+  p {
+    font-family: "sf-pro-display_title";
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #69696d;
+    text-align: left;
+  }
+}
+
+.content_wrapper {
+  button {
+    border-radius: 12px;
+    padding: 14px 32px 14px 32px;
+  }
+}
+
+.blogs {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.blog_expand {
+  margin-top: 48px;
+  margin-bottom: 81px;
+}
+
+.blogs_item {
+  .blog_video_desc {
+    margin-top: 24px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  img {
+    border-radius: 32px;
+
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .blog-video-section {
+    grid-template-columns: 1fr;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-right: 53px;
+    padding-left: 53px;
+  }
+
+  .blog_video_desc {
+    .title {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .blogs_item {
+    img {
+      border-radius: 12px;
+      overflow: hidden;
+    }
+  }
+
+  .video_blog_item {
+    video {
+      position: static;
+      border-radius: 32px;
+    }
+  }
+}
+// =============================== Блог ==============================
+
+// =============================== Блог Отдельный ==============================
+
+.blog_item_title {
+  position: relative;
+  border-radius: 32px;
+  overflow: hidden;
+  div {
+    h1 {
+      color: #ffffff;
+
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    p {
+      margin-right: 40px;
+      display: inline;
+      color: #ffffff;
+      font-family: "sf-pro-display_medium";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      img {
+        margin-right: 12px;
+      }
+    }
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+  }
+}
+
+.breadcumb {
+  padding: 20px 26px 20px 26px;
+  a {
+    text-decoration: none;
+    color: #69696d;
+  }
+
+  img {
+    transform: rotate(-90deg);
+    color: #2c2d2e;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .active_breadcrumb {
+    color: #2c2d2e;
+  }
+}
+
+.blog_item_text {
+  margin-bottom: 55px;
+  margin-top: 55px;
+  max-width: 942px;
+  //styleName: Paragraph/++H2;
+  font-family: "sf-pro-display_medium";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.video_blog_item.blog_page_video_tile {
+  video {
+    border-radius: 32px;
+    overflow: hidden;
+  }
+  height: 450px;
+}
+.grid_video_item {
+  .blog_video_desc {
+    margin-top: 12px;
+    h5 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+}
+
+.full_video {
+  border-radius: 38px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  video {
+    position: absolute;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.blog_video_desc_full {
+  margin-top: 32px;
+  margin-bottom: 119px;
+  h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  p {
+    font-family: "sf-pro-display_title";
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #69696d;
+    text-align: left;
+  }
+}
+// =============================== Блог Отдельный ==============================
