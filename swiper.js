@@ -51,7 +51,7 @@ const swiperCategory = new Swiper(".swiper_category", {
     },
 
     768: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 5,
     },
 

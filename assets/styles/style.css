@@ -906,7 +906,7 @@ body {
 /*------------------------------------ Отзывы ---------------------------------*/
 /*------------------------------------ Актуальное ---------------------------------*/
 .actual {
-  margin-top: 80px;
+  margin-top: 24px;
 }
 .actual .actual_title {
   margin-bottom: 48px;
@@ -968,8 +968,10 @@ body {
   margin-left: 10px;
 }
 
-.actual_item div {
-  padding-right: 53px;
+.actual_item {
+  /* div {
+    padding-right: 53px;
+  } */
 }
 .actual_item img {
   margin-bottom: 24px;
@@ -1336,7 +1338,7 @@ body {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  color: #69696d;
+  color: #2c2d2e;
 }
 
 @media screen and (max-width: 1210px) {
@@ -1831,7 +1833,7 @@ body {
   .actual_item h6 {
     margin-bottom: 12px;
     width: 324px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-size: 20px;
   }
   .subscribe {
@@ -1940,6 +1942,7 @@ body {
     padding: 10px 5px;
   }
   .swiper {
+    padding-left: 53px;
     min-width: 100%;
     border-radius: 0;
   }
@@ -1958,6 +1961,7 @@ body {
   }
   .products_wrapper {
     margin-top: 24px;
+    /* padding-left: 53px; */
   }
   .look_all_mobile {
     display: block;
@@ -2172,10 +2176,15 @@ body {
   }
   .actual_item h2,
   .actual_item h6 {
+    /* padding-left: 53px; */
     margin-bottom: 12px;
     width: 324px;
     margin: 0 auto;
     font-size: 20px;
+  }
+  .actual_item img {
+    border-radius: 0;
+    margin-top: 15px;
   }
   .subscribe {
     padding: 16px 53px;
@@ -3164,6 +3173,9 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .category_card {
+    height: 121px;
+  }
   .contacts_title {
     font-size: 24px;
     margin-bottom: 20px;
@@ -3332,10 +3344,10 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .content {
+  /* .content {
     padding-right: 53px;
     padding-left: 53px;
-  }
+  } */
   .blog_video_desc .title {
     font-size: 20px;
   }
