@@ -349,6 +349,20 @@ body {
   border-radius: 32px;
 }
 
+.banner_img2 {
+  position: absolute;
+  z-index: 3;
+  top: 15%;
+  left: 5%;
+}
+
+.banner_img3 {
+  position: absolute;
+  z-index: 3;
+  top: 15%;
+  right: 5%;
+}
+
 /* .slider_img4 {
     position: absolute;
     top: 0;
@@ -399,7 +413,7 @@ body {
   width: 100%;
   /* border-radius: 32px; */
   min-height: 100%;
-  aspect-ratio: 16/9;
+  /* aspect-ratio: 16/9; */
   -o-object-fit: fill;
      object-fit: fill;
 }
