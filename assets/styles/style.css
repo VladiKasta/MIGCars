@@ -2033,6 +2033,7 @@ body {
   }
   /* .products_wrapper, */
   .new {
+    margin-top: 24px;
     padding-left: 53px;
     padding-right: 53px;
   }
@@ -2052,7 +2053,7 @@ body {
   }
   .switcher .new_products,
   .switcher .sales {
-    font-size: 13px;
+    font-size: 11px;
     padding: 10px 5px;
   }
   .swiper {
@@ -2109,12 +2110,12 @@ body {
     max-width: 300px;
   }
   .slider_btn {
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 53px;
-    padding: 28px 80px;
+    padding: 14px 44px 14px 44px;
   }
   .slider_background {
-    height: 430px;
+    height: 288px;
     border-radius: 0;
   }
   .search_input {
@@ -2168,7 +2169,7 @@ body {
     line-height: 48px;
   }
   .tile_1 {
-    background-position: -180px;
+    background-position: -255px;
     background-size: 230%;
   }
   .tile_2 {
@@ -2273,6 +2274,9 @@ body {
     padding-right: 53px;
     padding-bottom: 20px;
   }
+  .about_title p {
+    margin-bottom: 12px;
+  }
   .about-btn {
     margin: 0;
     width: 100%;
@@ -2319,6 +2323,7 @@ body {
     line-height: 36px;
   }
   .subscribe_form {
+    padding-right: 0;
     width: 100%;
   }
   .subscribe_form button {

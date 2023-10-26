@@ -2213,6 +2213,7 @@ body {
 
   /* .products_wrapper, */
   .new {
+    margin-top: 24px;
     padding-left: 53px;
     padding-right: 53px;
     .link {
@@ -2235,7 +2236,7 @@ body {
 
     .new_products,
     .sales {
-      font-size: 13px;
+      font-size: 11px;
       padding: 10px 5px;
     }
   }
@@ -2307,13 +2308,13 @@ body {
   }
 
   .slider_btn {
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 53px;
-    padding: 28px 80px;
+    padding: 14px 44px 14px 44px;
   }
 
   .slider_background {
-    height: 430px;
+    height: 288px;
     border-radius: 0;
   }
 
@@ -2378,7 +2379,7 @@ body {
   }
 
   .tile_1 {
-    background-position: -180px;
+    background-position: -255px;
     background-size: 230%;
   }
 
@@ -2495,6 +2496,9 @@ body {
     padding-left: 53px;
     padding-right: 53px;
     padding-bottom: 20px;
+    p{
+      margin-bottom: 12px;
+    }
   }
 
   .about-btn {
@@ -2554,6 +2558,7 @@ body {
   }
 
   .subscribe_form {
+    padding-right: 0;
     width: 100%;
     button {
       margin-top: 12px;
