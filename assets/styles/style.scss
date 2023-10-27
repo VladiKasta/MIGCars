@@ -3992,7 +3992,7 @@ body {
   }
 
   .blog_title{
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .blog_video_desc {
@@ -4150,12 +4150,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 1520px;
-  gap: 97px;
+  row-gap: 32px;
+  column-gap: 97px;
   margin-bottom: 75px;
 }
 
 .title-partners {
   text-align: left;
+  margin-bottom: 48px;
 }
 
 .title_partner_card {
@@ -4168,10 +4170,12 @@ body {
 
 .partner_card {
   position: relative;
-  height: 432px;
-  border-bottom: #69696d solid 1px;
+  height: 464px;
+  
   img {
     margin-bottom: 24px;
+    width: 300px;
+    height: 124px;
   }
   h3 {
     margin-bottom: 24px;
@@ -4187,13 +4191,25 @@ body {
     color: #69696d;
   }
   a {
+    
     width: 200px;
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+  }
+
+  hr{
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+
   }
 }
 
@@ -4226,6 +4242,12 @@ body {
     gap: 97px;
     margin-bottom: 75px;
   }
+
+  .partner_card{
+    p{
+      overflow: hidden;
+    }
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -4252,11 +4274,26 @@ body {
     padding-right: 53px;
     display: grid;
     grid-template-columns: 1fr;
-    width: 324px;
+    
     gap: 20px;
     margin-bottom: 75px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .title-partners {
+    padding-left: 53px;
+  }
+  .partner_card {
+    p{
+      overflow: hidden;
+    }
+    width: 324px;
+    
+  }
+}
+
+
 
 // =============================== Партнеры ==============================
 
