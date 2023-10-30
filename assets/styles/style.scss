@@ -75,7 +75,7 @@ body {
 }
 
 .header_container {
-  height: 45px;
+  // height: 45px;
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6e7eb;
@@ -183,6 +183,7 @@ body {
     width: 308px;
   }
 }
+
 
 .arrow {
   transform: rotate(0deg);
@@ -439,7 +440,7 @@ body {
   position: absolute;
   z-index: 5;
   top: 10%;
-  left: 10%;
+  left: 5%;
 }
 
 /* .slider_img4 {
@@ -779,7 +780,7 @@ body {
   font-weight: 600;
   line-height: 20px;
   letter-spacing: 0px;
-
+margin-top: 12px;
   color: #2c2d2e;
 }
 
@@ -832,15 +833,17 @@ body {
 }
 
 .tile_1 {
+  
+  display: flex;
   width: 736px;
   height: 238px;
   background-image: url(/assets/img/products/advantages/Frame\ 41.png);
-
+position: relative;
   div {
     h1 {
       color: #fff;
       font-size: 48px;
-      text-align: center;
+      
     }
     p {
       background-color: #28399e;
@@ -856,13 +859,23 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    margin-left: 336px;
+    // margin-left: 336px;
     margin-top: 65px;
     margin-bottom: 81px;
   }
+
+  .icon_tile{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    border-radius: 0;
+  }
+
+  
 }
 
 .tile_2 {
+  position: relative;
   width: 736px;
   height: 238px;
   background-image: url(/assets/img/products/advantages/Frame\ 44.png);
@@ -885,9 +898,16 @@ body {
       display: inline;
     }
   }
+  img{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    border-radius: 0;
+  }
 }
 
 .tile_3 {
+  position: relative;
   width: 499px;
   height: 238px;
   background-image: url(/assets/img/products/advantages/Frame\ 42.png);
@@ -899,15 +919,28 @@ body {
       text-align: center;
     }
   }
+  .icon_tile{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    border-radius: 0;
+  }
+
+  .turbine{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 .tile_4 {
+  position: relative;
   width: 960px;
   height: 238px;
   background-image: url(/assets/img/products/advantages/Frame43.png);
   div {
     margin-left: 111px;
-    margin-top: 65px;
+    margin-top: 79px;
     h1 {
       color: #fff;
       font-size: 48px;
@@ -923,6 +956,14 @@ body {
       color: #fff;
     }
   }
+  img{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    border-radius: 0;
+  }
+
+  
 }
 
 /*------------------------------------ Наши преимущества ---------------------------------*/
@@ -1046,7 +1087,7 @@ body {
       font-family: "sf-pro-display_title";
       font-size: 32px;
       font-weight: 600;
-      line-height: 40px;
+      line-height: 20px;
       letter-spacing: 0px;
       text-align: left;
       margin-bottom: 42px;
@@ -1079,7 +1120,7 @@ body {
 .announce_link {
   text-decoration: none;
   color: #fff;
-
+font-size: 14px;
   img {
     color: #fff;
     margin-left: 10px;
@@ -1127,21 +1168,21 @@ body {
   margin-top: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 100px;
   position: relative;
   border-radius: 32px;
   background-color: #eaecfa;
   img {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 25%;
   }
 }
 
 .subscribe_title {
   margin-top: 139px;
-  margin-left: 99px;
+  // margin-left: 99px;
   margin-bottom: 180px;
   width: 529px;
   position: relative;
@@ -1580,6 +1621,8 @@ body {
 }
 
 .nav_icons_mobile {
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -2083,7 +2126,7 @@ body {
     padding-top: 20px;
     padding-left: 53px;
     padding-right: 53px;
-    padding-bottom: 20px;
+    padding-bottom: 74px;
   }
 
   .about-btn {
@@ -2294,6 +2337,7 @@ body {
     margin-left: 53px;
     padding: 14px 32px;
     border-radius: 12px;
+    
   }
 
   .products_wrapper h2 {
@@ -2508,7 +2552,7 @@ body {
     padding-top: 20px;
     padding-left: 53px;
     padding-right: 53px;
-    padding-bottom: 20px;
+    padding-bottom: 74px;
     p{
       margin-bottom: 12px;
     }
@@ -2969,14 +3013,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .banner_img3 {
-    position: absolute;
-    z-index: 3;
-    top: 15%;
-    right: -95%;
-  }
-}
+
 
 @media screen and (max-width: 768px) {
   .announce_text {
@@ -2985,6 +3022,12 @@ body {
       font-family: "sf-pro-display_title";
       font-size: 14px;
     }
+  }
+
+  .truck{
+    position: absolute;
+    left: -10%;
+
   }
 
   .certs {
@@ -3132,6 +3175,22 @@ body {
   .partners_title {
     padding-left: 53px;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .banner_img3 {
+    position: absolute;
+    z-index: 3;
+    top: 15%;
+    right: -95%;
+  }
+
+  .truck{
+    position: absolute;
+    left: -45%;
+
+  }
+  
 }
 
 // =============================== О нас ==============================
@@ -3655,8 +3714,8 @@ body {
 
   .icon_container {
     margin: 0;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .navbar_icons {
     display: flex;
