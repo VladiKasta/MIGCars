@@ -171,6 +171,9 @@ body {
   .expand_button {
     width: 308px;
   }
+  .ztd-icon {
+    display: none;
+  }
 }
 .arrow {
   transform: rotate(0deg);
@@ -208,6 +211,11 @@ body {
   letter-spacing: 0px;
   text-align: left;
   margin-right: 16px;
+}
+
+.link:hover {
+  font-size: 18px;
+  transition: 0.5s;
 }
 
 .nav label,
@@ -499,6 +507,11 @@ body {
   justify-content: center;
 }
 
+.slider_btn:hover {
+  background-color: #dadce0;
+  transition: 0.5s;
+}
+
 .swiper-wrapper {
   border-radius: 32px;
 }
@@ -552,6 +565,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+}
+
+.category_card:hover {
+  background-color: #e6e7eb;
+  transition: 0.5s;
 }
 
 .img_category_container {
@@ -713,6 +732,12 @@ body {
   right: 0;
 }
 
+.star:hover g path {
+  fill: rgb(247, 185, 2);
+  stroke: rgb(247, 185, 2);
+  stroke-width: 2;
+}
+
 /* .img_sales_container {
   margin-top: 22px;
 } */
@@ -754,6 +779,11 @@ body {
   letter-spacing: 0px;
   margin-top: 12px;
   color: #2c2d2e;
+}
+
+.cart-btn:hover {
+  background-color: #dadce0;
+  transition: 0.5s;
 }
 
 /*------------------------------------ Новые поступления Акции ---------------------------------*/
@@ -969,6 +999,11 @@ body {
   color: #fff;
 }
 
+.about-btn:hover {
+  background-color: #35449b;
+  transition: 0.5s;
+}
+
 /*------------------------------------ О компании ---------------------------------*/
 /*------------------------------------ Отзывы ---------------------------------*/
 .reviews {
@@ -1040,7 +1075,6 @@ body {
   font-family: "sf-pro-display_title";
   font-size: 32px;
   font-weight: 600;
-  line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
   margin-bottom: 42px;
@@ -1161,6 +1195,7 @@ body {
   border: none;
   border-radius: 16px;
   padding-left: 32px;
+  box-shadow: 0px 20px 48px 0px rgba(0, 16, 61, 0.08), 0px 6px 12px 0px rgba(0, 0, 0, 0.06);
 }
 .subscribe_form button {
   height: 72px;
@@ -1174,6 +1209,10 @@ body {
   margin-top: 48px;
   font-size: 20px;
   line-height: 24px;
+}
+.subscribe_form button:hover {
+  background-color: #4153c0;
+  transition: 0.5s;
 }
 
 /*------------------------------------ Подписаться ---------------------------------*/
@@ -2737,6 +2776,7 @@ body {
     color: #fff;
     font-family: "sf-pro-display_title";
     font-size: 14px;
+    line-height: 20px;
   }
   .truck {
     position: absolute;
@@ -3020,6 +3060,11 @@ body {
   justify-content: center;
   margin-left: 51px;
   margin-right: 16px;
+}
+
+.catalog_btn:hover {
+  background-color: #35449b;
+  transition: 0.5s;
 }
 
 .contacts_container {
@@ -3374,6 +3419,7 @@ body {
   }
   .section {
     margin-right: 0;
+    margin-right: 28px;
   }
   .section_social {
     margin-right: 0;
@@ -3641,7 +3687,9 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .blog_title, .blog-video-section, .blogs {
+  .blog_title,
+  .blog-video-section,
+  .blogs {
     margin-top: 0;
     gap: 15px;
     padding-left: 53px;
